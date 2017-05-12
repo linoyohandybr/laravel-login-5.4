@@ -3,13 +3,13 @@ Follow these steps:
 - Command line: composer install
 - Rename the file .env.example for .env
 - Command line: php artisan key:generate
-4-create a database with any name: example: my_database
+- Create a database with any name: example: my_database
 SQL Command:
   CREATE DATABASE my_database
 	CHARACTER SET latin1
 	COLLATE latin1_swedish_ci;
-  
-5- open .env and modify the database parameters
+
+- open .env and modify the database parameters
 
   DB_CONNECTION=mysql
   DB_HOST=127.0.0.1
@@ -18,7 +18,7 @@ SQL Command:
   DB_USERNAME=root
   DB_PASSWORD=yourpassword
   
- 6-in the same file modify your email server properties. If you don't have a server use mailtrap.io. Go to https://mailtrap.io/ and Sign up, then link "Demo inbox" option. then you can see your username and password. Copy them and paste as below:
+ - in the same file modify your email server properties. If you don't have a server use mailtrap.io. Go to https://mailtrap.io/ and Sign up, then link "Demo inbox" option. then you can see your username and password. Copy them and paste as below:
  
 MAIL_DRIVER=smtp
 MAIL_HOST= mailtrap.io
