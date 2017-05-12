@@ -4,10 +4,10 @@ Follow these steps:
 - Rename the file .env.example for .env
 - Command line: php artisan key:generate
 - Create a database with any name: example: my_database
-	SQL Command:
-	CREATE DATABASE my_database
-	CHARACTER SET latin1
-	COLLATE latin1_swedish_ci;
+	" SQL Command: "\n"
+	CREATE DATABASE my_database "\n"
+	CHARACTER SET latin1 "\n"
+	COLLATE latin1_swedish_ci; "\n"
 
 - open .env and modify the database parameters
 
