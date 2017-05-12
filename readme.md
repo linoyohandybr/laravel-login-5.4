@@ -1,3 +1,39 @@
+Clone the repo to your local enviroment.
+Follow these steps:
+1-Command line: composer install
+2-Rename the file .env.example for .env
+3-Command line: php artisan key:generate
+4-create a database with any name: example: my_database
+SQL Command:
+  CREATE DATABASE my_database
+	CHARACTER SET latin1
+	COLLATE latin1_swedish_ci;
+  
+5- open .env and modify the database parameters
+
+  DB_CONNECTION=mysql
+  DB_HOST=127.0.0.1
+  DB_PORT=3306
+  DB_DATABASE= my_database
+  DB_USERNAME=root
+  DB_PASSWORD=yourpassword
+  
+ 6-in the same file modify your email server properties. If you don't have a server use mailtrap.io. Go to https://mailtrap.io/ and Sign up, then link "Demo inbox" option. then you can see your username and password. Copy them and paste as below:
+ 
+MAIL_DRIVER=smtp
+MAIL_HOST= mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+
+7-Command line: php artisan migrate
+8- Command line: php artisan serve
+9- Open the browser using the host and port indicated for the command php artisan serve.
+
+Now you have a simple and powerful authentication system. It can be customize.Laravel is great, below more about it.
+  
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
