@@ -1,8 +1,8 @@
 Clone the repo to your local enviroment.
 Follow these steps:
-1-Command line: composer install
-2-Rename the file .env.example for .env
-3-Command line: php artisan key:generate
+- Command line: composer install
+- Rename the file .env.example for .env
+- Command line: php artisan key:generate
 4-create a database with any name: example: my_database
 SQL Command:
   CREATE DATABASE my_database
