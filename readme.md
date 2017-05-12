@@ -13,13 +13,13 @@ Follow these steps:
   DB_USERNAME=root
   DB_PASSWORD=yourpassword
   
- - in the same file modify your email server properties. If you don't have a server use mailtrap.io. Go to https://mailtrap.io/ and Sign up, then link "Demo inbox" option. then you can see your username and password. Copy them and paste as below:
+ - In the same file modify your email server properties. If you don't have a server use mailtrap.io. Go to https://mailtrap.io/ and Sign up, then link "Demo inbox" option. then you can see your username and password. Copy them and paste as below:
  
-MAIL_DRIVER=smtp
+- -MAIL_DRIVER=smtp
 MAIL_HOST= mailtrap.io
 MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
+MAIL_USERNAME=your user name or the user name given by mailtrap
+MAIL_PASSWORD=your user name or the user name given by mailtrap
 MAIL_ENCRYPTION=null
 
 - Command line: php artisan migrate
