@@ -4,11 +4,6 @@ Follow these steps:
 - Rename the file .env.example for .env
 - Command line: php artisan key:generate
 - Create a database with any name: example: my_database
-	" SQL Command: "\n"
-	CREATE DATABASE my_database "\n"
-	CHARACTER SET latin1 "\n"
-	COLLATE latin1_swedish_ci; "\n"
-
 - open .env and modify the database parameters
 
   DB_CONNECTION=mysql
@@ -27,9 +22,9 @@ MAIL_USERNAME=null
 MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
 
-7-Command line: php artisan migrate
-8- Command line: php artisan serve
-9- Open the browser using the host and port indicated for the command php artisan serve.
+- Command line: php artisan migrate
+- Command line: php artisan serve
+- Open the browser using the host and port indicated for the command php artisan serve.
 
 Now you have a simple and powerful authentication system. It can be customize.Laravel is great, below more about it.
   
